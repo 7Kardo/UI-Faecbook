@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color: #dee3e9;
+}
+
+.nav{
+    width: 100%;
+    height:40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0px 0px 50px 0.5px rgba(80, 79, 79, 0.836);
+}
+.nav-left{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.iconsearch{
+    margin-left: 10px;
+    position: relative;
+}
+.iconsearch .itemicon{
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    font-size: 20px;
+   
+}
+.iconsearch input{
+   height: 30px;
+   width: 150px;
+   border-radius: 30px;
+    border: none;
+    outline: none;
+    padding-left: 35px;
+    background-color: #dee3e9;
+}
+.iconfacebook{
+    font-size: 2.5rem;
+    color: #0064e0;
+    cursor: pointer;
+}
+
+.nav-mitel{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-mitel-icon{
+    margin: 0 20px;
+    font-size: 25px;
+    color: #1c2b339a;
+    cursor: pointer;
+}
+.nav-mitel-icon:hover{
+    color: #1c2b33;
+}
+.nav-rheit{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.nav-rheit-icon{
+    font-size: 1.3rem;
+    background-color: #dee3e9;
+    margin: 0 8px;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+.nav-rheit-icon:hover{
+    background-color: #c8ccd2;
+}
+.contenar-section{
+    width: 100%;
+    display: flex;
+    height: 150vh;
+}
+.section-left{
+    width: 25%;
+    height: 450px;
+    background-color:#dee3e9;
+    overflow: auto;
+    position: fixed;
+    top: 40px;
+}
+.section-metel{
+    width: 50%;
+    height: 450px;
+    background-color: rgb(131, 127, 255);
+    margin-left: 25%;
+}
+.section-right{
+    width: 25%;
+    height: 450px;
+    overflow: auto;
+    position: fixed;
+    top: 40px;
+    right: 0px;
+}
+.section-left-icon{
+    font-size: 25px;
+    text-align: start; 
+    padding-left: 10px;  
+}
+.section-left-p{
+    margin: 10px 5px;
+    background-color: #dee3e9;
+    border-radius: 30px;
+}
+.section-left-p:hover{
+    background-color: #c8ccd2
+}
+.Sponsored{
+    width: 100%;
+    height: 200px;
+}
+.sponsored-img img{
+    width: 80px;
+    height: 80px;
+}
+.sponsored-h4{
+    margin: 10px 0;
+}
+.sponsored-img-item{
+    display: block;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.user-name{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.user-name-icon{
+   margin-bottom: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.user-name-icon:hover{
+    background-color: #c8ccd2;
+    border-radius: 10px 0 0 10px;
+}
